@@ -1,0 +1,36 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00 \x00l\x003\x00-\x00c\x00p\x00p\x00-\x00t\x00p\x003\x00-\x00b\x00i\x00b\x00l\x00i)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=Nouveau lanceur Application
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=default
+Executable=file:///home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=l3-cpp-tp3-bibli,l3-cpp-tp3-bibli
+Use External Terminal=false
+Working Directory=
+isExecutable=false
