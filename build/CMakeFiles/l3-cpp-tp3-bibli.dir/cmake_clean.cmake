@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/l3-cpp-tp3-bibli.dir/bibliotheque.o"
   "CMakeFiles/l3-cpp-tp3-bibli.dir/docpapier.o"
   "CMakeFiles/l3-cpp-tp3-bibli.dir/video.o"
@@ -11,6 +11,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang CXX)
-  INCLUDE(CMakeFiles/l3-cpp-tp3-bibli.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang CXX)
+  include(CMakeFiles/l3-cpp-tp3-bibli.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

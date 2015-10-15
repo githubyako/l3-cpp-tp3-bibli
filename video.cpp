@@ -8,13 +8,22 @@ Video::Video(bool _empruntable, const string& _titre, const string& _nomauteur, 
 }
 
 
-Video::Video(const Video& _vid): Document(_vid.empruntable, _vid.titre, _vid.nomauteur)
+Video::Video(const Video& _vid): Document(_vid.getEmpruntable(), _vid.getTitre(), _vid.getNomauteur())
 {
   cout << "built vid from copy\n";
 }
 
+Video::~Video()
+{
+
+}
 
 float Video::calculercost()
 {
   return 70;
+}
+
+supportvid Video::getSupport()
+{
+  return support;
 }

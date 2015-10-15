@@ -8,7 +8,7 @@ class Livre: public Docpapier
 public:
   Livre(bool _empruntable, string const & _titre, string const & _nomauteur, unsigned int _nbpages);
   Livre(Livre const & _livre);
-  
+  ~Livre();
   
   
   float calculercost();

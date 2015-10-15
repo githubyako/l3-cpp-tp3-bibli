@@ -6,39 +6,67 @@
 
 #IncludeRegexTransform: 
 
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/bibliotheque.cpp
+/home/yako/projects/l3-cpp-tp3-bibli/bibliotheque.cpp
 bibliotheque.h
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/bibliotheque.h
+/home/yako/projects/l3-cpp-tp3-bibli/bibliotheque.h
 
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/bibliotheque.h
+/home/yako/projects/l3-cpp-tp3-bibli/bibliotheque.h
 livre.h
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/livre.h
+/home/yako/projects/l3-cpp-tp3-bibli/livre.h
 video.h
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/video.h
+/home/yako/projects/l3-cpp-tp3-bibli/video.h
 periodique.h
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/periodique.h
+/home/yako/projects/l3-cpp-tp3-bibli/periodique.h
 docpapier.h
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/docpapier.h
+/home/yako/projects/l3-cpp-tp3-bibli/docpapier.h
 document.h
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/document.h
+/home/yako/projects/l3-cpp-tp3-bibli/document.h
+vector
+-
 
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/docpapier.h
+/home/yako/projects/l3-cpp-tp3-bibli/docpapier.cpp
+docpapier.h
+/home/yako/projects/l3-cpp-tp3-bibli/docpapier.h
+
+/home/yako/projects/l3-cpp-tp3-bibli/docpapier.h
 document.h
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/document.h
+/home/yako/projects/l3-cpp-tp3-bibli/document.h
 
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/document.h
+/home/yako/projects/l3-cpp-tp3-bibli/document.cpp
+document.h
+/home/yako/projects/l3-cpp-tp3-bibli/document.h
+
+/home/yako/projects/l3-cpp-tp3-bibli/document.h
 iostream
 -
 
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/livre.h
-docpapier.h
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/docpapier.h
+/home/yako/projects/l3-cpp-tp3-bibli/livre.cpp
+livre.h
+/home/yako/projects/l3-cpp-tp3-bibli/livre.h
 
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/periodique.h
+/home/yako/projects/l3-cpp-tp3-bibli/livre.h
 docpapier.h
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/docpapier.h
+/home/yako/projects/l3-cpp-tp3-bibli/docpapier.h
 
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/video.h
+/home/yako/projects/l3-cpp-tp3-bibli/main.cpp
+iostream
+-
+bibliotheque.h
+/home/yako/projects/l3-cpp-tp3-bibli/bibliotheque.h
+
+/home/yako/projects/l3-cpp-tp3-bibli/periodique.cpp
+periodique.h
+/home/yako/projects/l3-cpp-tp3-bibli/periodique.h
+
+/home/yako/projects/l3-cpp-tp3-bibli/periodique.h
+docpapier.h
+/home/yako/projects/l3-cpp-tp3-bibli/docpapier.h
+
+/home/yako/projects/l3-cpp-tp3-bibli/video.cpp
+video.h
+/home/yako/projects/l3-cpp-tp3-bibli/video.h
+
+/home/yako/projects/l3-cpp-tp3-bibli/video.h
 document.h
-/home/etud/info/l3info/nroux/projects/l3-cpp-tp3-bibli/document.h
+/home/yako/projects/l3-cpp-tp3-bibli/document.h
 

@@ -8,13 +8,22 @@ Periodique::Periodique(const string& _titre, const string& _nomauteur, unsigned 
 }
 
 Periodique::Periodique(const Periodique& _periodique)
-: Docpapier(false,_periodique.titre,_periodique.nomauteur,_periodique.nbpages),numeroperiodique(_periodique.numeroperiodique)
+: Docpapier(false,_periodique.getTitre(),_periodique.getNomauteur(),_periodique.getNbpages()),numeroperiodique(_periodique.getNumperiodique())
 {
   cout << "built vid from copy\n";
 }
 
+Periodique::~Periodique()
+{
+
+}
 
 float Periodique::calculercost()
 {
-  Docpapier::calculercost();
+  return Docpapier::calculercost();
+}
+
+unsigned int Periodique::getNumperiodique() const
+{
+  return numeroperiodique;
 }

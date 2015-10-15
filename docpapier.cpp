@@ -9,13 +9,29 @@ Docpapier::Docpapier(bool _empruntable, const string& _titre, const string& _nom
 
 
 Docpapier::Docpapier(const Docpapier& _docpapier):
-Document(_docpapier.empruntable, _docpapier.titre,_docpapier.nomauteur),nbpages(_docpapier.nbpages)
+Document(_docpapier.getEmpruntable(), _docpapier.getTitre(),_docpapier.getNomauteur()),nbpages(_docpapier.getNbpages())
 {
   cout << "constructeur par recopie de doc papier appelé\n";
+}
+
+Docpapier::~Docpapier()
+{
+
 }
 
 
 float Docpapier::calculercost()
 {
   return (nbpages*costperpage);
+}
+
+float Docpapier::getCostperpage() const
+{
+  return costperpage;
+}
+
+
+unsigned int Docpapier::getNbpages() const
+{
+  return nbpages;
 }

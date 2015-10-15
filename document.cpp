@@ -10,9 +10,32 @@ Document::Document(const Document& _doc):empruntable(_doc.empruntable), titre(_d
 {
   cout << "copydocbuilder invoked\n";
 }
+Document::~Document()
+{
+
+}
+supportvid Document::getSupport()
+{
+  return getSupport();
+}
+
 
 float Document::calculercost()
 {
-  
+  return 0.0;
 }
 
+bool Document::getEmpruntable() const
+{
+  return empruntable;
+}
+
+string Document::getNomauteur() const
+{
+  return nomauteur;
+}
+
+string Document::getTitre() const
+{
+  return titre;
+}

@@ -16,6 +16,14 @@ int main(int argc, char **argv) {
     Video vid1(1, "Batman","Nolan",BluRay3D);
     Video vid2(vid1);
     
+    
     cout << vid2.calculercost() << "\n\n";
+
+    Bibliotheque Toussaint;
+    Toussaint.addLivre(book1);
+    Toussaint.addPeriodique(per2);
+    Toussaint.addVideo(vid2);
+    Toussaint.addVideo(Video(1, "Seul sur Mars","John",DVD));
+    Toussaint.addVideo(Video(0, "2001: a space odyssey","Michel",DVD));
     return 0;
 }

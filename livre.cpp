@@ -7,13 +7,17 @@ Livre::Livre(bool _empruntable, const string& _titre, const string& _nomauteur, 
 }
 
 Livre::Livre(const Livre& _livre)
-:Docpapier(_livre.empruntable,_livre.titre,_livre.nomauteur,_livre.nbpages)
+:Docpapier(_livre.getEmpruntable(),_livre.getTitre(),_livre.getNomauteur(),_livre.getNbpages())
 {
   cout << "livre copy builder appelé\n";
+}
+Livre::~Livre()
+{
+
 }
 
 
 float Livre::calculercost()
 {
-  Docpapier::calculercost();
+  return Docpapier::calculercost();
 }

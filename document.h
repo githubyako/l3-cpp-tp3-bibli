@@ -6,7 +6,7 @@ using namespace std;
 
 class Document
 {
-protected:
+private:
   bool empruntable;
   string titre;
   string nomauteur;
@@ -14,9 +14,12 @@ protected:
 public:
   Document(bool _empruntable, string const & _titre, string const & _nomauteur);
   Document(Document const & _doc);
-  
   virtual float calculercost() = 0;
   
+  virtual ~Document();
+  bool getEmpruntable() const;
+  string getTitre() const;
+  string getNomauteur() const;
 
   
 };

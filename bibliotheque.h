@@ -5,13 +5,20 @@
 #include "periodique.h"
 #include "docpapier.h"
 #include "document.h"
+#include <vector>
 
 class Bibliotheque{
   
 private:
-  Document * bibli = new Document[250];
+vector<Document*> m_bibli;
 public:
-  void addDocument(Bibliotheque & _bibli, Document const & _doc);
+  Bibliotheque();
+  void addLivre(Livre const & liv);
+  void addVideo(Video const & vid);
+  void addPeriodique(Periodique const & per);
+  unsigned int getnbDVDs();
+  
+  ~Bibliotheque();
   
 };
 
