@@ -11,7 +11,7 @@ private:
 public:
   Docpapier(bool _empruntable, const string& _titre, const string& _nomauteur,int _nbpages);
   Docpapier(Docpapier const & _docpapier);
-  ~Docpapier();
+  virtual ~Docpapier();
   unsigned int getNbpages() const;
   float getCostperpage() const;
   

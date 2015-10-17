@@ -12,7 +12,7 @@ public:
   Video(bool _empruntable, string const & _titre, string const & _nomauteur, supportvid _supportvid);
   Video(Video const & _vid);
   
-  supportvid getSupport();
+  supportvid getSupport() const;
   ~Video();
   float calculercost();  
   

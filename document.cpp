@@ -14,10 +14,7 @@ Document::~Document()
 {
 
 }
-supportvid Document::getSupport()
-{
-  return getSupport();
-}
+
 
 
 float Document::calculercost()

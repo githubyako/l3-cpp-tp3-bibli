@@ -23,7 +23,7 @@ float Video::calculercost()
   return 70;
 }
 
-supportvid Video::getSupport()
+supportvid Video::getSupport() const
 {
   return support;
 }

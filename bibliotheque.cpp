@@ -27,12 +27,20 @@ m_bibli.push_back(new Video(vid));
 }
 
 
-unsigned int Bibliotheque::getnbDVDs() 
+unsigned int Bibliotheque::getnbDVDs()// devrait être une méthode const, ne fonctionne pas avec m_bibli.begin
 {
   unsigned int count=0;
   for(vector<Document*>::iterator i=m_bibli.begin();i!=m_bibli.end();++i){
-      (*i)->getSupport();
-      count++;
+      Video const * tempdoc = dynamic_cast<Video*>(*i);
+      if (tempdoc){
+	if(tempdoc->getSupport() == DVD){
+	  ++count;
+	  
+	  
+	}
+      
+      }
+     // delete tempdoc;
   }
   return count;
 }

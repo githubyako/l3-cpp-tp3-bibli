@@ -22,8 +22,9 @@ int main(int argc, char **argv) {
     Bibliotheque Toussaint;
     Toussaint.addLivre(book1);
     Toussaint.addPeriodique(per2);
-    Toussaint.addVideo(vid2);
+    Toussaint.addVideo(vid1);
     Toussaint.addVideo(Video(1, "Seul sur Mars","John",DVD));
     Toussaint.addVideo(Video(0, "2001: a space odyssey","Michel",DVD));
+    cout << "\n\n resultat de getnbDVDs:"<< Toussaint.getnbDVDs() << "\n\n";
     return 0;
 }

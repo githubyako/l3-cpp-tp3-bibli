@@ -23,26 +23,16 @@ document.h
 /home/yako/projects/l3-cpp-tp3-bibli/document.h
 vector
 -
-
-/home/yako/projects/l3-cpp-tp3-bibli/docpapier.cpp
-docpapier.h
-/home/yako/projects/l3-cpp-tp3-bibli/docpapier.h
+typeinfo
+-
 
 /home/yako/projects/l3-cpp-tp3-bibli/docpapier.h
-document.h
-/home/yako/projects/l3-cpp-tp3-bibli/document.h
-
-/home/yako/projects/l3-cpp-tp3-bibli/document.cpp
 document.h
 /home/yako/projects/l3-cpp-tp3-bibli/document.h
 
 /home/yako/projects/l3-cpp-tp3-bibli/document.h
 iostream
 -
-
-/home/yako/projects/l3-cpp-tp3-bibli/livre.cpp
-livre.h
-/home/yako/projects/l3-cpp-tp3-bibli/livre.h
 
 /home/yako/projects/l3-cpp-tp3-bibli/livre.h
 docpapier.h
@@ -53,10 +43,6 @@ iostream
 -
 bibliotheque.h
 /home/yako/projects/l3-cpp-tp3-bibli/bibliotheque.h
-
-/home/yako/projects/l3-cpp-tp3-bibli/periodique.cpp
-periodique.h
-/home/yako/projects/l3-cpp-tp3-bibli/periodique.h
 
 /home/yako/projects/l3-cpp-tp3-bibli/periodique.h
 docpapier.h

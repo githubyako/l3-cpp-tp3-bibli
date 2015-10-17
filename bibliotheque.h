@@ -6,7 +6,7 @@
 #include "docpapier.h"
 #include "document.h"
 #include <vector>
-
+#include <typeinfo>
 class Bibliotheque{
   
 private:
